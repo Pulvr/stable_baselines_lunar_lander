@@ -15,7 +15,7 @@ log_dir = "tmp/"
 os.makedirs(log_dir, exist_ok=True)
 total_timesteps = 100_000
 
-env = gym.make("LunarLander-v3", render_mode="rgb_array")
+env = gym.make("LunarLander-v3", render_mode="rgb_array",max_episode_steps=350)
 env = Monitor(env, log_dir)
 
 class HParamCallback(BaseCallback):
@@ -62,7 +62,7 @@ std_reward_list = []
 tb_log_name = "DQN_no_max_ep_len"
 current_run_folder = "./max_ep_len_runs/no_max_ep_len/"
 
-runs= [11] #episode 9 rauslassen wegen crash mit replay_buffer 5e4 und max_ep_len_350
+runs= [1,2,3,4,5,6,7,8,10,11] #episode 9 überall rauslassen wegen crash mit replay_buffer 5e4 und max_ep_len_350
 
 for i in runs:
 
@@ -72,24 +72,24 @@ for i in runs:
     model = DQN(policy="MlpPolicy",
             env=env,
             learning_rate=0.00063,      # default ist 1e-4, das target net wird also auf die geschätzte Fehlerrate etwas stärker angepasst
-            batch_size=128,             # mini-batch size for updating replay buffer
+            batch_size=128,             # mini-batch size für replay Buffer sampling
             buffer_size=50_000,         # replay buffer size
-            learning_starts=0,          # direkt lernen
+            learning_starts=0,          # direkt lernen, keine trainigsdaten sammelphase am anfang
             gamma=0.99,                 # zukünftige Rewards werden bevorzugt
             tau=1,                      # default. Mit 1 machen wir "hard updates" des Target Networks
-            target_update_interval=250, # update target Network after 250 timesteps
+            target_update_interval=250, # update target Network nach 250 timesteps
             train_freq=4,               # train every 4 steps, default
             gradient_steps=-1,          # -1 as many gradient steps as steps done in the env during rollout
             exploration_initial_eps=1,  # auch default
-            exploration_fraction=0.12,  # nach total_timesteps*exp_fraction erreichen wir epsilon_min=0.1
+            exploration_fraction=0.12,  # nach (total_timesteps*exp_fraction) erreichen wir epsilon_min=0.1
             exploration_final_eps=0.1,  # default wäre 0.01, so noch höhere exploration am Ende erlaubt
-            policy_kwargs=dict(net_arch=[256,256],
+            policy_kwargs=dict(net_arch=[256,256],                  # Hidden Layers im NN
                                optimizer_class=torch.optim.AdamW,   # AdamW anscheinend besser? Adam Optimizer scheint
                                                                     # laut internet die weights nicht ganz korrekt zu berechnet
                                activation_fn=torch.nn.ReLU),        # ist default, aber mal explizit reingeschrieben
             verbose=1,
             stats_window_size=10,       # amount of episodes to use for the stats window mean_scores
-            device='cpu',
+            device='cpu',               # wir machen keine Bildverarbeitung, ist irgendwann aufgefallen das CPU ein wenig schneller ist
             seed=int(current_run),      # seeding for reproducibility
             tensorboard_log="./dqn_lunar_tensorboard_no_max_ep_len")
 
@@ -105,6 +105,7 @@ for i in runs:
     else:
         model.save(tb_log_name+current_run)
         model.save_replay_buffer(tb_log_name+"_"+current_run+"_replay_buffer")
+
     #evaluate Policy over 100 episodes and save mean/std reward to txt file
     mean_reward, std_reward = evaluate_policy(model, model.get_env(), n_eval_episodes=100)
     print(f"mean_reward: {mean_reward}\n std_reward: {std_reward}")
