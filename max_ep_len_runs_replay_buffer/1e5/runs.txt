@@ -1,0 +1,54 @@
+
+Run: 1 with 100 episodes evaluated
+mean_reward: 198.46
+std_reward: 66.47
+episodes: 344
+
+Run: 2 with 100 episodes evaluated
+mean_reward: 213.08
+std_reward: 62.85
+episodes: 352
+
+Run: 3 with 100 episodes evaluated
+mean_reward: 153.21
+std_reward: 75.14
+episodes: 360
+
+Run: 4 with 100 episodes evaluated
+mean_reward: 184.9
+std_reward: 79.95
+episodes: 368
+
+Run: 5 with 100 episodes evaluated
+mean_reward: 187.71
+std_reward: 83.44
+episodes: 344
+
+Run: 6 with 100 episodes evaluated
+mean_reward: 156.63
+std_reward: 69.56
+episodes: 336
+
+Run: 7 with 100 episodes evaluated
+mean_reward: 170.61
+std_reward: 45.09
+episodes: 344
+
+Run: 8 with 100 episodes evaluated
+mean_reward: 192.52
+std_reward: 63.53
+episodes: 328
+
+Run: 10 with 100 episodes evaluated
+mean_reward: 69.53
+std_reward: 32.19
+episodes: 340
+
+Run: 11 with 100 episodes evaluated
+mean_reward: 205.84
+std_reward: 64.96
+episodes: 336
+
+Durchschnitt über alle Läufe
+mean_reward: 173.248249868
+std_reward: 64.31667806657785

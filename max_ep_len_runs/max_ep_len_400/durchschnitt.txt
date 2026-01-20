@@ -1,0 +1,5 @@
+
+mean reward bei 174,2 über alle 10 runs
+Durchschnitt
+mean_reward = 145.87
+std_reward = 91.91

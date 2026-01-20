@@ -1,0 +1,50 @@
+
+DQN_max_ep_len_350_replay_buffer_32_1
+mean_reward: -4.38
+std_reward: 29.26
+episodes: 376
+
+DQN_max_ep_len_350_replay_buffer_32_2
+mean_reward: -51.63
+std_reward: 64.68
+episodes: 384
+
+DQN_max_ep_len_350_replay_buffer_32_3
+mean_reward: -49.23
+std_reward: 80.32
+episodes: 412
+
+DQN_max_ep_len_350_replay_buffer_32_4
+mean_reward: 17.98
+std_reward: 51.15
+episodes: 416
+
+DQN_max_ep_len_350_replay_buffer_32_5
+mean_reward: 22.83
+std_reward: 53.77
+episodes: 400
+
+DQN_max_ep_len_350_replay_buffer_32_6
+mean_reward: -124.37
+std_reward: 126.73
+episodes: 404
+
+DQN_max_ep_len_350_replay_buffer_32_7
+mean_reward: 10.27
+std_reward: 77.58
+episodes: 420
+
+DQN_max_ep_len_350_replay_buffer_32_8
+mean_reward: 48.24
+std_reward: 25.05
+episodes: 376
+
+DQN_max_ep_len_350_replay_buffer_32_9
+mean_reward: 33.29
+std_reward: 40.48
+episodes: 396
+
+DQN_max_ep_len_350_replay_buffer_32_10
+mean_reward: -103.11
+std_reward: 79.92
+episodes: 

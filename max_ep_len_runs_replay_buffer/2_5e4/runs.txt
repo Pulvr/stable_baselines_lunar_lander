@@ -1,0 +1,59 @@
+
+Run: 1 with 100 episodes evaluated
+mean_reward: 237.99
+std_reward: 54.39
+episodes: 392
+
+Run: 2 with 100 episodes evaluated
+mean_reward: 251.24
+std_reward: 66.75
+episodes: 396
+
+Run: 3 with 100 episodes evaluated
+mean_reward: 32.57
+std_reward: 96.46
+episodes: 404
+
+Run: 4 with 100 episodes evaluated
+mean_reward: 239.36
+std_reward: 135.33
+episodes: 388
+
+Run: 5 with 100 episodes evaluated
+mean_reward: 225.69
+std_reward: 82.72
+episodes: 412
+
+Run: 6 with 100 episodes evaluated
+mean_reward: 182.11
+std_reward: 110.39
+episodes: 360
+
+Run: 7 with 100 episodes evaluated
+mean_reward: 233.22
+std_reward: 48.15
+episodes: 412
+
+Run: 8 with 100 episodes evaluated
+mean_reward: 229.13
+std_reward: 56.61
+episodes: 408
+
+Run: 9 with 100 episodes evaluated ### fliegt raus
+mean_reward: 100.22
+std_reward: 18.08
+episodes: 616
+
+Run: 10 with 100 episodes evaluated
+mean_reward: 198.84
+std_reward: 88.56
+episodes: 432
+
+Run: 11 with 100 episodes evaluated ### BESTER ????
+mean_reward: 263.25
+std_reward: 39.87
+episodes: 372
+
+Durchschnitt:
+mean_reward: 209.34
+std_reward: 85.49

@@ -1,0 +1,260 @@
+DQN_max_ep_len_400_1 5/10 gelöst
+mean_reward: 245.24
+std_reward: 71.5
+
+DQN_max_ep_len_400_2
+mean_reward: 247.08
+std_reward: 66.04
+
+DQN_max_ep_len_400_3
+mean_reward: 215.87
+std_reward: 114.6
+
+DQN_max_ep_len_400_4
+mean_reward: 77.47
+std_reward: 111.72
+
+DQN_max_ep_len_400_5
+mean_reward: 210.88
+std_reward: 95.62
+
+DQN_max_ep_len_400_6
+mean_reward: 202.05
+std_reward: 98.7
+
+DQN_max_ep_len_400_7
+mean_reward: 181.92
+std_reward: 104.0
+
+DQN_max_ep_len_400_8
+mean_reward: 191.27
+std_reward: 112.64
+
+DQN_max_ep_len_400_9
+mean_reward: 42.46
+std_reward: 123.6
+episodes: 368
+
+DQN_max_ep_len_400_10
+mean_reward: 130.99
+std_reward: 82.38
+
+350_max_ep_len 5/10 gelöst
+
+DQN_max_ep_len_350_1
+mean_reward: 238.14
+std_reward: 77.43
+
+DQN_max_ep_len_350_2
+mean_reward: 242.8
+std_reward: 88.34
+
+DQN_max_ep_len_350_3
+mean_reward: 175.0
+std_reward: 49.19
+
+DQN_max_ep_len_350_4
+mean_reward: 223.71
+std_reward: 55.36
+
+DQN_max_ep_len_350_5
+mean_reward: 259.55
+std_reward: 49.6
+
+DQN_max_ep_len_350_6
+mean_reward: 199.45
+std_reward: 98.05
+
+DQN_max_ep_len_350_7
+mean_reward: 208.9
+std_reward: 72.9
+
+DQN_max_ep_len_350_8
+mean_reward: 177.42
+std_reward: 107.26
+
+DQN_max_ep_len_350_9
+mean_reward: -1103.34
+std_reward: 652.48
+episodes: 824
+
+DQN_max_ep_len_350_10
+mean_reward: 196.23
+std_reward: 104.86
+
+max_ep_len_300 7/10 gelöst
+
+DQN_max_ep_len_300_1
+mean_reward: 210.90
+std_reward: 62.94
+
+DQN_max_ep_len_300_2
+mean_reward: 211.85
+std_reward: 106.12
+
+DQN_max_ep_len_300_3
+mean_reward: 233.6
+std_reward: 84.5
+
+DQN_max_ep_len_300_4
+mean_reward: 252.48
+std_reward: 43.75
+
+DQN_max_ep_len_300_5
+mean_reward: 247.64
+std_reward: 60.03
+
+DQN_max_ep_len_300_6 # nicht gelöst
+mean_reward: 77.1
+std_reward: 144.3
+
+DQN_max_ep_len_300_7 # nicht gelöst, wieder crash am Ende
+mean_reward: 37.43
+std_reward: 26.61
+
+DQN_max_ep_len_300_8
+mean_reward: 261.09
+std_reward: 33.72
+
+DQN_max_ep_len_300_9 #nicht gelöst
+mean_reward: 46.89
+std_reward: 31.47
+episodes: 396
+
+DQN_max_ep_len_300_10
+mean_reward: 240.84
+std_reward: 50.53
+
+DQN_max_ep_len_350_11
+mean_reward: 213.32
+std_reward: 91.16
+
+DQN_no_max_ep_len_1
+mean_reward: 210.62
+std_reward: 81.25
+
+DQN_no_max_ep_len_2
+mean_reward: 158.15
+std_reward: 120.86
+
+DQN_no_max_ep_len_3
+mean_reward: 274.38
+std_reward: 15.43
+
+DQN_no_max_ep_len_4
+mean_reward: 196.6
+std_reward: 109.46
+
+DQN_no_max_ep_len_5
+mean_reward: 185.3
+std_reward: 118.28
+
+DQN_no_max_ep_len_6
+mean_reward: 66.56
+std_reward: 105.81
+
+DQN_no_max_ep_len_7
+mean_reward: 162.46
+std_reward: 90.01
+
+DQN_no_max_ep_len_8
+mean_reward: 256.03
+std_reward: 27.7
+
+DQN_no_max_ep_len_9
+mean_reward: 248.76
+std_reward: 12.5
+episodes: 184
+
+DQN_no_max_ep_len_10
+mean_reward: 123.6
+std_reward: 111.3
+
+max_ep_len_run_350 timesteps am besten vom Durchschnitt her
+
+300_max_ep_len_buffer_1e5
+
+DQN_max_ep_len_300_buffer_1e5_1
+mean_reward: 226.45
+std_reward: 60.9
+episodes: 396
+
+DQN_max_ep_len_300_buffer_1e5_2
+mean_reward: 255.62
+std_reward: 62.43
+episodes: 408
+
+DQN_max_ep_len_300_buffer_1e5_3
+mean_reward: 242.32
+std_reward: 63.22
+episodes: 408
+
+DQN_max_ep_len_300_buffer_1e5_4 #kind of okay
+mean_reward: 197.58
+std_reward: 109.42
+episodes: 400
+
+DQN_max_ep_len_300_buffer_1e5_5 #hovering problem
+mean_reward: 82.42
+std_reward: 147.65
+episodes: 384
+
+DQN_max_ep_len_300_buffer_1e5_6
+mean_reward: 175.18
+std_reward: 60.77
+episodes: 388
+
+DQN_max_ep_len_300_buffer_1e5_7
+mean_reward: 174.35
+std_reward: 65.97
+episodes:
+
+DQN_max_ep_len_300_buffer_1e5_8
+mean_reward: 125.56
+std_reward: 18.01
+episodes:
+
+DQN_max_ep_len_300_buffer_1e5_9
+mean_reward: 213.29
+std_reward: 89.48
+episodes:
+
+DQN_max_ep_len_300_buffer_1e5_10
+mean_reward: 110.59
+std_reward: 96.0
+episodes:
+
+DQN_max_ep_len_300_buffer_1e5_11
+mean_reward: 137.33
+std_reward: 49.75
+episodes:
+
+DQN_max_ep_len_300_buffer_1e5_12
+mean_reward: 125.41
+std_reward: 52.73
+episodes:
+
+DQN_max_ep_len_300_buffer_1e5_13
+mean_reward: 110.55
+std_reward: 21.28
+episodes:
+
+DQN_max_ep_len_300_buffer_1e5_14
+mean_reward: 99.7
+std_reward: 31.99
+episodes:
+
+DQN_max_ep_len_300_buffer_1e5_15
+mean_reward: 72.11
+std_reward: 27.66
+episodes:
+
+DQN_max_ep_len_300_buffer_1e5_15
+mean_reward: 116.96
+std_reward: 21.16
+episodes:
+
+DQN_max_ep_len_300_buffer_1e5_16
+mean_reward: 146.28
+std_reward: 58.05
+episodes:

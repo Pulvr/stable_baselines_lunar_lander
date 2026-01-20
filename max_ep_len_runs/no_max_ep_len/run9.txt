@@ -1,0 +1,5 @@
+
+Run: 9 with 100 episodes evaluated # Fliegt Raus
+mean_reward: 240.48
+std_reward: 50.85
+
