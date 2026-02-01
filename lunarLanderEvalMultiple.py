@@ -15,8 +15,10 @@ os.makedirs(log_dir, exist_ok=True)
 env = gym.make("LunarLander-v3", render_mode="rgb_array")
 env = Monitor(env, log_dir)
 
+runs= [1,2,3,4,5,6,7,8,10,11] #episode 9 überall rauslassen wegen crash mit replay_buffer 5e4 und max_ep_len_350
+
 current_run_folder="./max_ep_len_runs_replay_buffer/1e4/"
-for i in range(1,11):
+for i in runs:
 
     run_to_load= str(i)
 
@@ -33,7 +35,8 @@ for i in range(1,11):
                     f"mean_reward: {round(mean_reward,2)}\n"
                     f"std_reward: {round(std_reward,2)}\n")
 
-#results with trained agent
+
+#results with trained agent for viewing
 #vec_env = model.get_env()
 #obs = vec_env.reset()
 #for i in range(4000):
