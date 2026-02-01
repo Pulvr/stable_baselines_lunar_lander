@@ -39,11 +39,6 @@ mean_reward: 229.13
 std_reward: 56.61
 episodes: 408
 
-Run: 9 with 100 episodes evaluated ### fliegt raus
-mean_reward: 100.22
-std_reward: 18.08
-episodes: 616
-
 Run: 10 with 100 episodes evaluated
 mean_reward: 198.84
 std_reward: 88.56
@@ -54,6 +49,3 @@ mean_reward: 263.25
 std_reward: 39.87
 episodes: 372
 
-Durchschnitt:
-mean_reward: 209.34
-std_reward: 85.49

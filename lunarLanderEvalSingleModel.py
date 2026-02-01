@@ -15,21 +15,22 @@ os.makedirs(log_dir, exist_ok=True)
 env = gym.make("LunarLander-v3", render_mode="rgb_array")
 env = Monitor(env, log_dir)
 
-current_run_folder="./max_ep_len_runs/no_max_ep_len/"
+current_run_folder="./max_ep_len_runs/max_ep_len_350/"
 
-run_to_load= "11"
+run_to_load= "2"
 
 # load model
-model = DQN.load(current_run_folder+"DQN_no_max_ep_len_"+run_to_load+".zip", env=env)
+model = DQN.load(current_run_folder+"DQN_max_ep_len_350_"+run_to_load+".zip", env=env)
 
 #evaluate policy
-mean_reward, std_reward = evaluate_policy(model, model.get_env(), n_eval_episodes=100)
-print(f"mean_reward: {mean_reward}\n std_reward: {std_reward}")
+#mean_reward, std_reward = evaluate_policy(model, model.get_env(), n_eval_episodes=100)
+#print(f"mean_reward: {mean_reward}\n std_reward: {std_reward}")
 
 #results with trained agent
 vec_env = model.get_env()
 obs = vec_env.reset()
-for i in range(3000):
+
+for i in range(5000):
     action, _states = model.predict(obs, deterministic=True)
     obs, reward, done, info = vec_env.step(action)
     with th.no_grad():
@@ -48,6 +49,6 @@ for i in range(3000):
 
 
 #plot to show how many episodes succeeded
-total_timesteps = 100_000
-plot_results([log_dir], total_timesteps, results_plotter.X_EPISODES, "DQN Lunar")
-plt.show()
+#total_timesteps = 100_000
+#plot_results([log_dir], total_timesteps, results_plotter.X_EPISODES, "DQN Lunar")
+#plt.show()

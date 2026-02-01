@@ -1,59 +1,49 @@
-
 Run: 1 with 100 episodes evaluated
 mean_reward: 121.18
 std_reward: 160.99
-episodes training: 456
+episodes: 456
 
 Run: 2 with 100 episodes evaluated
 mean_reward: 163.85
 std_reward: 381.86
-episodes training: 396
+episodes: 396
 
 Run: 3 with 100 episodes evaluated
 mean_reward: 241.05
 std_reward: 75.58
-episodes training: 372
+episodes: 372
 
 Run: 4 with 100 episodes evaluated
 mean_reward: 85.39
 std_reward: 133.36
-episodes training: 420
+episodes: 420
 
 Run: 5 with 100 episodes evaluated
 mean_reward: 242.5
 std_reward: 81.28
-episodes training: 396
+episodes: 396
 
 Run: 6 with 100 episodes evaluated
 mean_reward: 52.77
 std_reward: 178.02
-episodes training: 408
+episodes: 408
 
 Run: 7 with 100 episodes evaluated
 mean_reward: 245.56
 std_reward: 49.57
-episodes training: 416
+episodes: 416
 
 Run: 8 with 100 episodes evaluated
 mean_reward: 227.73
 std_reward: 85.8
-episodes training: 352
-
-Run: 9 with 100 episodes evaluated #### rausnehmen
-mean_reward: 202.13
-std_reward: 95.81
-episodes training: 364
+episodes: 352
 
 Run: 10 with 100 episodes evaluated
 mean_reward: 235.34
 std_reward: 77.79
-episodes training: 392
+episodes: 392
 
 Run: 11 with 100 episodes evaluated
 mean_reward: 173.25
 std_reward: 51.84
 episodes: 404
-
-Durchschnitt # nochmal neu errechnen
-mean_reward : 182.84
-std_reward : 127.61

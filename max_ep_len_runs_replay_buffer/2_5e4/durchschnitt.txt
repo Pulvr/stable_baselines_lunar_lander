@@ -1,0 +1,4 @@
+
+Durchschnitt:
+mean_reward: 209.34
+std_reward: 85.49

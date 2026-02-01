@@ -1,4 +1,3 @@
-
 Run: 1 with 100 episodes evaluated
 mean_reward: 198.46
 std_reward: 66.47
@@ -48,7 +47,3 @@ Run: 11 with 100 episodes evaluated
 mean_reward: 205.84
 std_reward: 64.96
 episodes: 336
-
-Durchschnitt über alle Läufe
-mean_reward: 173.248249868
-std_reward: 64.31667806657785

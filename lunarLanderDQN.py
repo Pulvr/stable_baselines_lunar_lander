@@ -79,7 +79,7 @@ for i in runs:
             tau=1,                      # default. Mit 1 machen wir "hard updates" des Target Networks
             target_update_interval=250, # update target Network nach 250 timesteps
             train_freq=4,               # train every 4 steps, default
-            gradient_steps=-1,          # -1 as many gradient steps as steps done in the env during rollout
+            gradient_steps=-1,          # -1 as many gradient steps as steps done in the env during rollout, also 4 wie bei train_freq
             exploration_initial_eps=1,  # auch default
             exploration_fraction=0.12,  # nach (total_timesteps*exp_fraction) erreichen wir epsilon_min=0.1
             exploration_final_eps=0.1,  # default wäre 0.01, so noch höhere exploration am Ende erlaubt
@@ -119,6 +119,7 @@ for i in runs:
                     f"std_reward: {round(std_reward, 2)}\n"
                     f"episodes: \n")
 
+#Durschnitt der Ergebnisse errechnen
 #if os.path.exists(current_run_folder + "runs.txt"):
 #    with open(current_run_folder + "runs.txt", "a") as f:
 #        f.write(f"\nDurchschnitt über alle Läufe\n"
