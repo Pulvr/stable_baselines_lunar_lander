@@ -1,0 +1,3 @@
+Durchscnitt:
+overall_mean_reward: 185.69
+overall_std_reward: 77.7

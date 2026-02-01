@@ -1,3 +1,0 @@
-Run: 9 with 100 episodes evaluated # Fliegt raus
-mean_reward: 56.02
-std_reward: 34.44

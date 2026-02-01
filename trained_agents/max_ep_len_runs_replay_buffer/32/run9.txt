@@ -1,0 +1,4 @@
+
+Run: 9 with 100 episodes evaluated #IGNORIEREN EP 9 fliegt raus
+mean_reward: -92.87
+std_reward: 75.91

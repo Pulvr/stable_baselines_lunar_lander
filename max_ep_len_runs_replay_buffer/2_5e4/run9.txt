@@ -1,5 +1,0 @@
-
-Run: 9 with 100 episodes evaluated ### fliegt raus
-mean_reward: 100.22
-std_reward: 18.08
-episodes: 616

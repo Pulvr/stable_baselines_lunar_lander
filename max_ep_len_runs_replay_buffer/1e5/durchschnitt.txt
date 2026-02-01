@@ -1,3 +1,0 @@
-Durchschnitt über alle Läufe
-mean_reward: 173.248249868
-std_reward: 64.31667806657785

@@ -1,0 +1,5 @@
+
+
+Durchschnitt # nochmal neu errechnen
+mean_reward : 182.84
+std_reward : 127.61

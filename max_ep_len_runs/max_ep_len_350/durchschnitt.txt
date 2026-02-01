@@ -1,7 +1,0 @@
-
-Durchschnitt
-# mit dem absolutem crash ist der durchschnitt bei 71.8 ansonsten bei 204.2
-# ich war so frei und hab den absoluten crash rausgenommen und dafür ein model mehr trainiert
-
-mean_reward: 204.65
-std_reward: 78.15

@@ -13,7 +13,7 @@ os.makedirs(video_folder, exist_ok=True)
 video_length = 5000
 
 vec_env = DummyVecEnv([lambda: gym.make(env_id, render_mode="rgb_array")])
-model = DQN.load("./max_ep_len_runs/max_ep_len_350/DQN_max_ep_len_350_2.zip")
+model = DQN.load("trained_agents/max_ep_len_runs/max_ep_len_350/DQN_max_ep_len_350_2.zip")
 obs = vec_env.reset()
 
 # Record the video starting at the first step
